@@ -163,12 +163,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 83609151}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 345038a5a2d35fb48995d2ceaef60a83, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f8d5d29a31dd084aaa8cb13851d7ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   local: 0
   label: 
-  arrayButtonClickEvent: []
   controller: {fileID: 83609156}
 --- !u!114 &83609156
 MonoBehaviour:
@@ -748,12 +747,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 725451149}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 345038a5a2d35fb48995d2ceaef60a83, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f8d5d29a31dd084aaa8cb13851d7ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   local: 0
   label: 
-  arrayButtonClickEvent: []
   controller: {fileID: 725451153}
 --- !u!114 &725451153
 MonoBehaviour:
@@ -1922,7 +1920,6 @@ MonoBehaviour:
   - {fileID: 725451155}
   - {fileID: 725451156}
   - {fileID: 83609152}
-  - {fileID: 83609153}
   - {fileID: 725451152}
 --- !u!4 &1623734775
 Transform:
@@ -1947,7 +1944,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1623734773}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40415cd437dc22a419fe9f2663390a2a, type: 3}
+  m_Script: {fileID: 11500000, guid: 045786cf504bd7347842d6948241cbd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   urlSignaling: ws://localhost
@@ -1959,6 +1956,7 @@ MonoBehaviour:
     - stun:stun.l.google.com:19302
     username: 
   interval: 5
-  hardwareEncoderSupport: 0
+  hardwareEncoderSupport: 1
   handlers:
   - {fileID: 1623734774}
+  runOnAwake: 1

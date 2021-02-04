@@ -22,7 +22,6 @@ namespace Unity.RenderStreaming.RuntimeTest
                 type = InputRemoting.MessageType.NewEvents,
                 data = new byte[] {1, 2, 3, 4, 5},
             };
-            
             var bytes = MessageSerializer.Serialize(ref message1);
 
             Assert.That(bytes, Is.Not.Null);
@@ -189,7 +188,7 @@ namespace Unity.RenderStreaming.RuntimeTest
             receiverDisposer.Dispose();
         }
 
-        [UnityTest, Timeout(1000)]
+        [UnityTest, Timeout(5000)]
         public IEnumerator AddDevice()
         {
             var sender = new Sender();
