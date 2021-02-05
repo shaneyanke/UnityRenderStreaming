@@ -136,7 +136,7 @@ namespace Unity.RenderStreaming.RuntimeTest
             container.Dispose();
         }
 
-        [UnityTest, Timeout(1000)]
+        [UnityTest, Timeout(3000)]
         public IEnumerator ReceiveStream()
         {
             string connectionId = "12345";
